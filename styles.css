@@ -1,1 +1,62 @@
-body {background: #4965ac}
+body {
+	background: #4965ac;
+margin-left: 5px;
+	margin-right: 5px;
+}
+
+.banner {
+	color: #e47733;
+	padding: 15px;
+	border: double;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+address {text-align: center;}
+.imageone {
+	/* scaled image sizing: */
+	width: 40%;
+	height: auto;
+	/* center image: */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding : */
+	padding-bottom: 30px;
+}
+
+.imagetwo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+display: inline;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+table {
+	/*center table: */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	text-align: center;
+	color: #e47733;
+}
+
+#last {
+	color: #2b3266;
+}
+
+@media screen and (max-width: 500px) {}
+  body {
+    background-color: black;
+    color: #4965ac;
+ }
