@@ -1,21 +1,27 @@
 body {
-	background: #4965ac;
+	max-width: 960px;
 margin-left: 5px;
 	margin-right: 5px;
+	background-image: url(/Users/marcomanomat/Desktop/DBC/week_2/personal-website/week2-site/background.jpg);
+	background-size: 100%;
+
 }
 
 .banner {
-	color: #e47733;
+	width: 15%;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
 	padding: 15px;
-	border: double;
-	text-align: center;
-	font-size: 45px;
-	font-weight: bold;
-	font-family: Arial;
+
 }
 
 address {text-align: center;}
-.imageone {
+
+/* no longer used - but kept as comment for reference purposes
+.imageone { */
 	/* scaled image sizing: */
 	width: 40%;
 	height: auto;
@@ -25,7 +31,8 @@ address {text-align: center;}
 	margin-right: auto;
 	/*padding : */
 	padding-bottom: 30px;
-}
+} 
+
 
 .imagetwo {
 	display: block;
@@ -35,28 +42,29 @@ address {text-align: center;}
 
 ul {
 display: inline;
+list-style-type: none;
 	text-align: center;
-	font-weight: bold;
-	font-size: 25px;
+	font-weight: bolder;
+	font-size: 35px;
+	color: #f77935;
 }
 
-table {
-	/*center table: */
-	margin-left: auto;
-	margin-right: auto;
-}
+li {display: block;}
 
-nav {
-	text-align: center;
-	color: #e47733;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #last {
 	color: #2b3266;
 }
 
-@media screen and (max-width: 500px) {}
+@media screen and (max-width: 500px) {
   body {
-    background-color: black;
-    color: #4965ac;
- }
+    background: black;
+  }
+}
